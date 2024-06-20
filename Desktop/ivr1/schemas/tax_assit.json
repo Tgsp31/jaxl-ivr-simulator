@@ -1,0 +1,97 @@
+{
+  "groups": [],
+  "devices": [],
+  "phones": [],
+  "ivrs": [
+    {
+      "name": "tax_assistance",
+      "webhook": true,
+      "welcome_message": "Welcome to the Tax Information and Assistance Line. Please select from the following options to proceed further.",
+      "main_menu": [
+        {
+          "option": "1",
+          "description": "Personal Tax Information",
+          "sub_menu": [
+            {
+              "option": "1",
+              "description": "How to file your personal tax return."
+            },
+            {
+              "option": "2",
+              "description": "Tax deadlines."
+            },
+            {
+              "option": "3",
+              "description": "Tax forms and document requirements."
+            },
+            {
+              "option": "4",
+              "description": "Go back to the main menu."
+            }
+          ]
+        },
+        {
+          "option": "2",
+          "description": "Business Tax Information",
+          "sub_menu": [
+            {
+              "option": "1",
+              "description": "How to file your business tax return."
+            },
+            {
+              "option": "2",
+              "description": "Business tax rates."
+            },
+            {
+              "option": "3",
+              "description": "Tax forms and document requirements for businesses."
+            },
+            {
+              "option": "4",
+              "description": "Go back to the main menu."
+            }
+          ]
+        },
+        {
+          "option": "3",
+          "description": "Tax Filing and Payment Assistance",
+          "sub_menu": [
+            {
+              "option": "1",
+              "description": "Help with online tax filing."
+            },
+            {
+              "option": "2",
+              "description": "Payment options and methods."
+            },
+            {
+              "option": "3",
+              "description": "Assistance with installment plans."
+            },
+            {
+              "option": "4",
+              "description": "Go back to the main menu."
+            }
+          ]
+        },
+        {
+          "option": "4",
+          "description": "Refund Status",
+          "instructions": [
+            "Please enter your Social Security Number followed by the pound key.",
+            "Please enter the exact amount of your expected refund followed by the pound key.",
+            "Your refund is currently being processed. Please check back in a few days for an update."
+          ]
+        },
+        {
+          "option": "0",
+          "description": "Speak to a representative."
+        },
+        {
+          "option": "7",
+          "description": "Hear these options again."
+        }
+      ]
+    }
+  ]
+}
